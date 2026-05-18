@@ -47,7 +47,7 @@ if uploaded_file is not None:
 
     with left_col:
         st.subheader("Image Preview")
-        st.image(image, caption="Uploaded Image", use_container_width=True)
+        st.image(image, caption="Uploaded Image", use_column_width=True)
 
     with st.spinner("Generating description and social captions..."):
         try:
